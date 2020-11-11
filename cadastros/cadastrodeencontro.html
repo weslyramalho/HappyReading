@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/loadingPage.css">
+
+    <title>HappyReading</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.svg" class="navbar-brand-img" alt="...">
+            </a>
+            <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsingNavbar2">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#divEncontros">Encontros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#divTrocas">Trocas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#divPublicacoes">Livros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre-nos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ajuda</a>
+                    </li>
+                </ul>
+                <a class="nav-link" href="authentication"><b>Entrar</b></a>
+                <a class="navbar-btn btn btn-sm btn-outline-secondary ml-4" href="authentication">
+                    Cadastre-se
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <form id="formulario"  autocomplete="off">
+        <fieldset>
+        <legend>Cadastro de Encontro</legend>
+        <div class="form-row">
+          <div class="col">
+            <label for="formGroupExampleInput">Tema do encontro</label>
+            <input type="text" class="form-control" placeholder="Digite aqui o tema..">
+          </div>
+          <div class="col">
+            <label for="formGroupExampleInput">Administrador</label>
+            <input type="text" class="form-control" placeholder="Digite aqui o nome  do Administrador..">
+          </div>
+        </div>
+        
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Categoria</label>
+                 <select class="form-control" id="exampleFormControlSelect1">
+                 <option>Administração</option>
+                 <option>Autoajuda</option>
+                <option>Ciências humanas e social</option>
+                 <option>Didáticos</option>
+                <option>Direito</option>
+                <option>Literatura Estrangeira</option>
+                 <option>Literatura infantojuvenil</option>
+                <option>Literatura nacional</option>
+                 <option>Medicina</option>
+                <option>Outros..</option>
+                 </select>
+
+
+
+
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">Data do evento</label>
+                <input type="date" class="form-control" id="data">
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Data</label>
+              <input type="time" class="form-control" id="hora">
+            </div>
+          </div>
+         
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Descrição</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descreva aqui os assuntos relacionaddos ao encontro..."></textarea>
+          </div>
+
+
+
+
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Imgem da capa</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+          
+          <button type="submit" class="botao">Cadastrar</button>
+
+        </fieldset>
+
+      </form>
+
+
+
+    
+
+    <footer class="pt-4 py-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../images/logo.svg" class="img-fluid mb-2">
+                    <p>
+                        HappyReading é uma plataforma de encontros, troca e publicação de livros.
+                    </p>
+
+                    <ul class=" list-inline mb-6 mb-md-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-instagram" style="font-size:24px; color:#CF6766;"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-facebook-official" style="font-size:24px;color: #30415D;"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-twitter-square" style="font-size:24px; color:#CF6766;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="co">©2020HappyReading</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>

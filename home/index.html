@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/home.css">
+
+    <title>HappyReading</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="../images/logo.svg" class="navbar-brand-img" alt="...">
+            </a>
+            <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsingNavbar2">
+                <form class="navbar-nav mx-auto col-lg-6">
+                    <div class="input-group search">
+                        <input type="text" class="form-control search" placeholder="Busque titulo, autores..." aria-label="Busque titulo, autores..." aria-describedby="basic-addon1">
+                        <div class="input-group-append">
+                            <button type="submit" class="input-group-text search" id="basic-text1">
+                                <img width="22px" src="../images/icons/search-solid.svg">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="dropdown col-lg-3">
+                    <div class="row align-items-center" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="col-lg-9 user text-md-right">
+                            nome do usuario
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="../images/icons/icon-5.svg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Home</button>
+                        <button class="dropdown-item" type="button">Livros</button>
+                        <button class="dropdown-item" type="button">Trocas</button>
+                        <button class="dropdown-item" type="button">Sair</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-8 py-md-11">
+        <div class="container">
+            <div class="row topico">
+                <p class="col-lg-11">Encontros disponiveis</p>
+                <a class="col-lg-1">Mais -></a>
+
+            </div>
+            <div class="row ">
+                <div class="col-sm-3 pt-4" data-toggle="modal" data-target="#encontroModal">
+                    <div class="card card-encontro">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Holiday Logs</h5>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-4" data-toggle="modal" data-target="#encontroModal">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Holiday Logs</h5>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-4" data-toggle="modal" data-target="#encontroModal">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Holiday Logs</h5>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-4" data-toggle="modal" data-target="#encontroModal">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Holiday Logs</h5>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-4" data-toggle="modal" data-target="#encontroModal">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Holiday Logs</h5>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4 topico">
+                <p class="col-lg-11">Livros para troca</p>
+                <a class="col-lg-1">Mais -></a>
+
+            </div>
+            <div class="row  ml-1">
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4 topico">
+                <p class="col-lg-11">Livros com novos capitulos</p>
+                <a class="col-lg-1">Mais -></a>
+
+            </div>
+            <div class="row ml-1">
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 pt-4" data-toggle="modal" data-target="#trocaModal">
+                    <div class="row align-items-center">
+                        <img class="topico-img" src="../images/illustrations/illustration-4.svg">
+                        <div class="card card-block pt-4 pl-3 topico-desc text-center">
+                            <h4 class="card-title">Holiday Logs</h4>
+                            <p class="card-text">Jason Response</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="encontroModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <img style="height: 281px; margin-right: -2px;" src="../images/illustrations/illustration-4.svg">
+            <div class=" modal-content" style="box-shadow: 0px 10px 15px rgba(48, 65, 93, 0.35);">
+                <div class="modal-body  mx-2">
+                    <div class="row popup">
+                        <div>
+                            <h5>Tipo de Encontro: Digital</h5>
+                            <h4>Programação: 10:00 am até 12:00 am- Resenha e Discussão</h4>
+                            <h5>Plataforma: Zoom</h5>
+                        </div>
+                        <p class="py-4 popup-resumo">
+                            Venha reunir-se conosco em mais um encontro literário, repleto de resenhas, debates e muita leitura.Vem com a gente!
+                        </p>
+                        <div class="py-4">
+                            <p class="popup-title">Livro: De volta para casa</p>
+                            <p class="popup-desc">Um Clube de leitura não passa de um grupo de pessoas, que combinam em ler um mesmo livro em um determinado período (geralmente um mês) e depois se encontram para falar sobre ele, tomar café (chá, chimarrão, whisky, suco, etc),
+                                comer e se divertir. Às vezes só falta alguém que tenha a iniciativa de convidar o pessoal.</p>
+                        </div>
+                        <a href="#" style="box-shadow: 0px 10px 15px rgba(48, 65, 93, 0.35);" class="botao-inscricao btn btn-primary btn-custom-start">
+                            Marcar presença</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="trocaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <img style="height: 281px; margin-right: -2px;" src="../images/illustrations/illustration-4.svg">
+            <div class=" modal-content" style="box-shadow: 0px 10px 15px rgba(48, 65, 93, 0.35);">
+                <div class="modal-body  mx-2">
+                    <div class="row popup">
+                        <div>
+                            <h4>De volta para casa</h4>
+                            <h6>Estado do livro: Bem conservado </h6>
+                        </div>
+                        <div class="py-4">
+                            <p class="popup-desc">Para Lane, voltar para casa é difícil. É difícil porque seu amado tio Harry morreu de repente, mas também por causa dele: Kale. Kale Kunt é seu melhor amigo desde a infância. Mas nunca foi simples. Por causa dele, Lane saiu
+                                de casa e foi morar em Nova York. Vê-lo com outra pessoa, apaixonado por outra pessoa, não deveria doer. Mas doía. Doía muito, de verdade. Então ela levantou acampamento e foi embora, começou uma vida nova e se desligou
+                                do passado.</p>
+                            <p class="popup-title">João busca encontrar Percy Jackson e o ladrão de raios.</p>
+                        </div>
+                        <a href="#" style="box-shadow: 0px 10px 15px rgba(48, 65, 93, 0.35);" class="botao-inscricao btn btn-primary btn-custom-start">
+                            Trocar</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-4 py-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../images/logo.svg" class="img-fluid mb-2">
+                    <p>
+                        HappyReading é uma plataforma de encontros, troca e publicação de livros.
+                    </p>
+
+                    <ul class=" list-inline mb-6 mb-md-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-instagram" style="font-size:24px; color:#CF6766;"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-facebook-official" style="font-size:24px;color: #30415D;"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-twitter-square" style="font-size:24px; color:#CF6766;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="co">©2020HappyReading</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>
